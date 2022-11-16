@@ -1,6 +1,6 @@
-// // get an element by ID
-// const title = document.getElementById('page-title');
-// console.log(title);
+// get an element by ID
+const title = document.getElementById('page-title');
+console.log(title);
 
 // // get elements by class name
 // const errors = document.getElementsByClassName('error');
@@ -68,18 +68,18 @@
 // content.classList.remove('error');
 // content.classList.add('success');
 
-const paras = document.querySelectorAll('p');
+// const paras = document.querySelectorAll('p');
 
-paras.forEach(p => {
-    if(p.textContent.includes('error')){
-        p.classList.add('error');
-    }
-    if(p.textContent.includes('success')){
-        p.classList.add('success');
-    }
-});
+// paras.forEach(p => {
+//     if(p.textContent.includes('error')){
+//         p.classList.add('error');
+//     }
+//     if(p.textContent.includes('success')){
+//         p.classList.add('success');
+//     }
+// });
 
-const title = document.querySelector('.title');
+// const title = document.querySelector('.title');
 
-title.classList.toggle('test');
-title.classList.toggle('test');
+// title.classList.toggle('test');
+// title.classList.toggle('test');
